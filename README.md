@@ -5,7 +5,7 @@
 ![Javascript](https://img.shields.io/badge/Javascript-Language-yellow)
 ![Typescript](https://img.shields.io/badge/Typescript-Language-blue)
 ![React](https://img.shields.io/badge/React-components-orange)
-![Next](https://img.shields.io/badge/Next-components-pink)
+![Next](https://img.shields.io/badge/Next-StaticPages-pink)
 ![Styled Components](https://img.shields.io/badge/StyledComponents-Styles-purple)
 
 # Nextjs Website Geziel Eylon
