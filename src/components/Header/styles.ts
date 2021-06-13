@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: var(--background-light);
+  background: var(--background-dark);
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 `;
 
 export const Wrapper = styled.div`
   height: 6rem;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -40,14 +43,18 @@ export const MenuItem = styled.li`
     color: var(--purple);
   }
 
-  & + & {
-    margin-left: 2.5rem;
-  }
-
-  span {
+  a {
+    color: var(--text);
+    text-decoration: none;
     letter-spacing: 0;
     font-size: 1rem;
     font-weight: 600;
+    transition: all 0.2s ease;
+    margin: 0 0.5rem;
+  }
+
+  a:hover{
+    color: var(--purple);
   }
 `;
 

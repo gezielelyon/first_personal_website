@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import {
   Container,
   Wrapper,
@@ -7,25 +9,25 @@ import {
   ContactButton,
 } from './styles';
 
-export function Header() {
+interface IHeaderProps {
+  openEmailModal: () => void;
+}
+
+export function Header({openEmailModal}: IHeaderProps) {
   return (
     <Container>
       <Wrapper>
-        <Title>Geziel Elyon</Title>
+        <Link href="/">
+          <Title>Geziel Elyon</Title>
+        </Link>
 
         <Menu>
           <MenuItem>
-            <span>Início</span>
-          </MenuItem>
-          <MenuItem>
-            <span>Sobre mim</span>
-          </MenuItem>
-          <MenuItem>
-            <span>Baixar currículo</span>
+            <a href="/curriculo.pdf" download>Baixar currículo</a>
           </MenuItem>
         </Menu>
 
-        <ContactButton type="button" onClick={() => {}}>
+        <ContactButton type="button" onClick={openEmailModal}>
           Entrar em contato
         </ContactButton>
       </Wrapper>

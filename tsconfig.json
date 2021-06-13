@@ -21,7 +21,8 @@
     "paths": {
       "@pages/*": ["./src/pages/*"],
       "@components/*": ["./src/components/*"],
-      "@contexts/*": ["./src/contexts/*"]
+      "@services/*": ["./src/services/*"],
+      "@shared/*": ["./src/shared/*"],
     }
   },
   "include": [
