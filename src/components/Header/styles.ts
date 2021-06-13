@@ -27,6 +27,10 @@ export const Title = styled.h1`
   &:hover{
     color: var(--purple);
   }
+
+  @media(max-width: 800px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const Menu = styled.ul`
@@ -69,6 +73,10 @@ export const ContactButton = styled.button`
   transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
+
+  @media(max-width: 800px) {
+    padding: 0.5rem;
+  }
 
   &::after {
     content: 'Enviar email';
