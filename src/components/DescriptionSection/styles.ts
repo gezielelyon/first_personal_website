@@ -15,7 +15,7 @@ export const Container = styled.section<IReverseProps>`
   `}
 
   @media(max-width: 800px) {
-    height: 110vh;
+    height: 120vh;
   }
 `;
 
@@ -80,11 +80,13 @@ export const InfoContent = styled.div`
     text-align: center;
 
     h1 {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     p {
       font-size: 1rem;
+      margin-bottom: 0;
     }
   }
 `;
