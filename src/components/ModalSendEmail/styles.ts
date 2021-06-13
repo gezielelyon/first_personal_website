@@ -13,6 +13,14 @@ export const Container = styled.div`
     font-family: "Caveat brush";
     margin-bottom: 2rem;
   }
+
+  @media(max-width: 800px) {
+    padding: 1.5rem;
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+  }
 `;
 
 export const Form = styled.form`
@@ -56,6 +64,17 @@ export const DivInput = styled.div`
     background: var(--background-light);
     resize: none;
   }
+
+  @media(max-width: 800px) {
+    input {
+      height: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    textarea {
+      min-height: 7rem;
+    }
+  }
 `;
 
 export const SendButton = styled.button`
@@ -73,5 +92,10 @@ export const SendButton = styled.button`
 
   &:hover {
     filter: brightness(0.8);
+  }
+
+  @media(max-width: 800px) {
+    height: 3rem;
+    margin-top: 1.5rem;
   }
 `;
