@@ -8,7 +8,7 @@
 ![Next](https://img.shields.io/badge/Next-StaticPages-pink)
 ![Styled Components](https://img.shields.io/badge/StyledComponents-Styles-purple)
 
-# Nextjs Website Geziel Eylon
+# NextJs Website Geziel Eylon
 This repository contain my own website created with NextJs. [Link Website](https://programador404.vercel.app/)
 
 ## Technologies Used:
