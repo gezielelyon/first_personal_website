@@ -1,32 +1,19 @@
-import {useState} from 'react';
+import { Header } from '@components/Header/index';
+import { Footer } from '@components/Footer/index';
+import { DescriptionSection } from '@components/DescriptionSection/index';
 
-import {Header} from '@components/Header/index';
-import {Footer} from '@components/Footer/index';
-import {DescriptionSection} from '@components/DescriptionSection/index';
-import {ModalSendEmail} from '@components/ModalSendEmail';
-
-import {contents} from '@shared/data';
+import { contents } from '@shared/data';
 
 export default function Home() {
-  const [modalSendEmailOpen, setModalSendEmailOpen] = useState(false);
-
-  function onRequestOpen () {
-    setModalSendEmailOpen(true);
-  }
-
-  function onRequestClose () {
-    setModalSendEmailOpen(false);
-  }
-
   return (
     <>
-
-      <Header openEmailModal={onRequestOpen} />
+      <Header />
 
       <div>
-        {contents.map((item) => (
+        {contents.map(item => (
           <DescriptionSection
             key={item.title}
+            id={item.id}
             title={item.title}
             description={item.description}
             reverse={item.reverse}
@@ -35,9 +22,7 @@ export default function Home() {
         ))}
       </div>
 
-      <ModalSendEmail isOpen={modalSendEmailOpen} onRequestClose={onRequestClose} />
-
       <Footer />
     </>
-  )
+  );
 }

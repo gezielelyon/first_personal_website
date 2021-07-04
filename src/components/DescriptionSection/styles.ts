@@ -24,6 +24,7 @@ export const Wrapper = styled.div<IReverseProps>`
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 1rem;
 
   z-index: 50;
 

@@ -1,28 +1,24 @@
-import {SocialButtons} from '../SocialButtons/index';
+import { SocialButtons } from '../SocialButtons/index';
 
-import {
-  Container,
-  Wrapper,
-  InfoDiv,
-  InfoContent,
-  ImageDiv
-} from './styles';
+import { Container, Wrapper, InfoDiv, InfoContent, ImageDiv } from './styles';
 
 interface IDescriptionSectionProps {
+  id: string;
   title: string;
   description: string;
   reverse: boolean;
   asset: string;
 }
 
-export function DescriptionSection ({
+export function DescriptionSection({
+  id,
   title,
   description,
   reverse,
-  asset
+  asset,
 }: IDescriptionSectionProps) {
   return (
-    <Container reverse={reverse}>
+    <Container id={id} reverse={reverse}>
       <Wrapper reverse={reverse}>
         <InfoDiv reverse={reverse}>
           <InfoContent>

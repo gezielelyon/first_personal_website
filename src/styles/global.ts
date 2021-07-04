@@ -12,6 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     --background-light: #191622;
     --text: #E1E1E6;
     --black: #000;
+    --light-purple: #988BC7;
     --purple: #7159c1;
     --orange: #E89E64;
     --green: #67E480;
@@ -22,6 +23,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   html {
+    scroll-behavior: smooth;
+
     @media(max-width: 1080px) {
       font-size: 93.75%;
     }
