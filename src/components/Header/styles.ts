@@ -44,6 +44,7 @@ export const MobileMenu = styled.div`
   animation-name: moveLeftToRight;
   animation-duration: 0.7s;
   animation-fill-mode: backwards;
+  overflow: hidden;
 
   @keyframes moveLeftToRight {
     from {
@@ -78,7 +79,7 @@ export const MenuItem = styled.li`
   }
 
   @media(max-width: 1000px) {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   &:hover{
@@ -119,7 +120,7 @@ export const ContactButton = styled.a`
   overflow: hidden;
 
   @media(max-width: 1000px) {
-    padding: 1.5rem;
+    padding: 0.75rem;
     font-size: 1.2rem;
   }
 
