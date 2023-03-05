@@ -21,7 +21,3 @@ This repository contain my own website created with NextJs. [Link Website](https
 ### Web Image:
 ![First](https://user-images.githubusercontent.com/48457700/121801328-33c32400-cc0d-11eb-88c7-c77596d347da.PNG)
 ![Second](https://user-images.githubusercontent.com/48457700/121801335-36be1480-cc0d-11eb-9131-7238c82e6def.PNG)
-
-## Mobile Images:
-![Third](https://user-images.githubusercontent.com/48457700/121801342-3b82c880-cc0d-11eb-8996-1cf0e2bc74f2.PNG)
-![Fourth](https://user-images.githubusercontent.com/48457700/121801348-3f164f80-cc0d-11eb-9ddb-966d4885a98e.PNG)
